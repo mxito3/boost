@@ -7,7 +7,7 @@
             "options": {
                 "cwd": "${workspaceRoot}/build"
             },
-            "command": "g++  ${file} -L/usr/lib/x86_64-linux-gnu -lboost_thread -lboost_system -o ${fileBasenameNoExtension}"
+            "command": "g++  ${file} -L/usr/lib/x86_64-linux-gnu -lboost_thread -lpthread -lboost_system -o ${fileBasenameNoExtension}"
         }, 
         {
             "label": "build",
